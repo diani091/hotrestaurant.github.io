@@ -2,11 +2,18 @@
     text-align: center;
 }
 
-.row {
-    text-align: center;
-    background-color: rgb(229, 199, 143);
-}
 
 h1 {
-    color: gray;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
 }
