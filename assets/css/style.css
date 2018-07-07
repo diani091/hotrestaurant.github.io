@@ -1,0 +1,12 @@
+.container-fluid {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    background-color: rgb(229, 199, 143);
+}
+
+h1 {
+    color: gray;
+}
