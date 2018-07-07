@@ -1,129 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Reservation Page</title>
 
-	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation Page</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+        
 
 </head>
+
 <body background="assets/images/bgkitchen.jpg" alt="Kitchen image">
 
 
-        <div class="container" style="background-color: transparent">
+    <div class="container" style="background-color: transparent">
 
-           <!-- top of the page title  -->
-                <div class="jumbotron" style="background-color: transparent">
-                    <h1 class="text-center" style="color: snow">Super Hot Restaurant</h1>
-                    <hr>
-                    <h2 class="text-center" style="-webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color:snow; text-size-adjust: 20 px;">Make your reservation Nerds</h2>
-                    <br>
+        <!-- top of the page title  -->
+        <div class="jumbotron" style="background-color: transparent">
+            <h1 class="text-center" style="color: snow">Super Hot Restaurant</h1>
+            <hr>
+            <h1 class="text-center" style="-webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color:snow; text-size-adjust: 40 px;">Make your reservation Nerds</h2>
+            <br>
 
-                    <!-- reservation form -->
+            <!-- reservation form -->
 
-                    <div class="row" >
-                            <div class="col-lg-12" >
-                
-                                <!-- Reservation Page -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">Table Reservation</h4>
-                                    </div>
-                                    <div class="panel-body">
-                
-                                        <form role="form">
-                
-                                            <div class="form-group">
-                                                <label for="">Name</label>
-                                                <input type="text" class="form-control" id="reserve_name">
-                                            </div>
-                
-                                            <div class="form-group">
-                                                <label for="">Phone Number</label>
-                                                <input type="text" class="form-control" id="reserve_phone">
-                                            </div>
-                
-                                            <div class="form-group">
-                                                <label for="">Email</label>
-                                                <input type="text" class="form-control" id="reserve_email">
-                                            </div>
+            <div class="row">
+                <div class="col-lg-12">
 
-                                            <!-- drop down menu -->
-                                            <select class="custom-select">
-                                                    <option selected>reservation paymet</option>
-                                                    <option value="1">Cash</option>
-                                                    <option value="2">Credit card</option>
-                                                    <option value="3">Other</option>
-                                                  </select>
-                                            
-                
-                                            <button type="submit" class="btn btn-primary submit">Submit</button>
-                                        </form>
-                
-                                    </div>
-                                </div>
-                
-                            </div>
+                    <!-- Reservation Page -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Table Reservation</h4>
                         </div>
-                    
-                
-                        <footer class="footer">
-                                <div class="container">
-                                  <p><a href="./index.html">Home</a> | <a href="./tables.html">API Wait List/ tables</a> </p>
+                        <div class="panel-body">
+
+                            <form role="form">
+
+                                <div class="form-group">
+                                    <label for="">Name</label>
+                                    <input type="text" class="form-control" id="reserve_name">
                                 </div>
-                              </footer>
-                      
-                          </div>
+
+                                <div class="form-group">
+                                    <label for="">Phone Number</label>
+                                    <input type="text" class="form-control" id="reserve_phone">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="text" class="form-control" id="reserve_email">
+                                </div>
+
+                                <!-- drop down menu -->
+                                <select class="custom-select">
+                                    <option selected>reservation paymet</option>
+                                    <option value="1">Cash</option>
+                                    <option value="2">Credit card</option>
+                                    <option value="3">Other</option>
+                                </select>
+
+
+                                
+
+                                <button type="submit" class="btn btn-primary submit" form="form-inline">Submit</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="container">
+                    <p>
+
+                            <a class="btn btn-primary btn-lg" href="index.html" role="button">Home</a>
+                            <a class="btn btn-primary btn-lg" href="tables.html" role="button">Wait List / tables</a>
+
+                </div>
+            </footer>
+
+        </div>
 
 
 
 
 
 </body>
+
 </html>
 <script type="text/javascript">
 
-	$(".submit").on("click", function(){
+    $(".submit").on("click", function () {
 
-		// Here we grab the form elements
-		var newReservation = {
-			customerName: $('#reserve_name').val().trim(),
-			phoneNumber: $('#reserve_phone').val().trim(),
-			customerEmail: $('#reserve_email').val().trim()
-		};
+        // Here we grab the form elements
+        var newReservation = {
+            customerName: $('#reserve_name').val().trim(),
+            phoneNumber: $('#reserve_phone').val().trim(),
+            customerEmail: $('#reserve_email').val().trim()
+        };
 
-		console.log(newReservation);
+        console.log(newReservation);
 
-		
-		var currentURL = window.location.origin;
 
-	    $.post(currentURL + "/api/tables", newReservation,
-	    function(data){
+        var currentURL = window.location.origin;
 
-	    	
-	    	if(data == true){
-	    		alert("Succefully booked!")
-	    	}
+        $.post(currentURL + "/api/tables", newReservation,
+            function (data) {
 
-	    	
-	    	if(data == false){
-	    		alert("Sorry you are on the wait list")
-	    	}
 
-	    	
-    		$('#reserve_name').val("");
-			$('#reserve_phone').val("");
-			$('#reserve_email').val("");
-			
+                if (data == true) {
+                    alert("Succefully booked!")
+                }
 
-	    });
 
-return false;
+                if (data == false) {
+                    alert("Sorry you are on the wait list")
+                }
 
-});
+
+                $('#reserve_name').val("");
+                $('#reserve_phone').val("");
+                $('#reserve_email').val("");
+
+
+            });
+
+        return false;
+
+    });
 
 </script>
